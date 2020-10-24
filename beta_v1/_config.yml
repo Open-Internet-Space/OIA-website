@@ -1,0 +1,7 @@
+url: "https://www.anopeninternet.eu.org/" 
+baseurl: "/" 
+title: "Test Site" 
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

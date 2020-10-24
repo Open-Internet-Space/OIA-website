@@ -1,0 +1,11 @@
+<!-- a href="/" {% if page.url == "/" %}style="color: red;"{% endif %}> Home </a>
+<a href="/about.html" {% if page.url == "/about.html" %}style="color: red;"{% endif %}> About</a -->
+
+
+<nav class="nav nav-pills nav-fill">
+  <a class="nav-item nav-link" href="/active.html" {% if page.url == "/active.html" %}style="z-index: 3;color: #fff;background-color: #007bff;border-color: #007bff;"{% endif %}>Active</a>
+  <a class="nav-item nav-link" href="#">Link</a>
+  <a class="nav-item nav-link" href="#">Link</a>
+  <a class="nav-item nav-link disabled" href="#">Disabled</a>
+</nav>
+
