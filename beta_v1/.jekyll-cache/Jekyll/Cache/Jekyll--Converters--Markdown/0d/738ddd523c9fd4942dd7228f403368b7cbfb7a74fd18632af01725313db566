@@ -1,8 +1,4 @@
----
-layout: default
-title: Home
----
-<div class="row">
+I"[<div class="row">
   <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
@@ -21,9 +17,7 @@ title: Home
       </div>
     </div>
   </div>
-    <div class="w-100">
-    <br />
-    </div>
+    <div class="w-100"></div>
       <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
@@ -43,3 +37,4 @@ title: Home
     </div>
   </div>
 </div>
+:ET
