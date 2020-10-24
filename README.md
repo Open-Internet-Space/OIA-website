@@ -5,12 +5,9 @@ Please check https://beta.anopeninternet.eu.org for the beta version which is un
 
 ## Changelog
 
-Version 1.0
+Version 1.0 (beta)
 
-Basic bootstrap demo site built using Bootstrap Studio https://bootstrapstudio.io/
-
-Version 2.0
 
 - Bootstrap v4.5
 - HTML5
-- PHP 7.3 
+- Jekyll
