@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: design
 title: Home
 ---
 <div class="row">
@@ -9,7 +9,7 @@ title: Home
       <div class="card-body">
         <h5 class="card-title">Distribution Core</h5>
         <p class="card-text">A website having many books, mainly related to technology, with some other tools that may be handy.</p>
-        <a href="https://rajdis.heliohost.org/" target="_blank" class="btn btn-primary"> Distribure </a>
+        <a href="/distribure_index" target="_blank" class="btn btn-primary"> Distribure </a>
       </div>
     </div>
   </div>
@@ -19,7 +19,7 @@ title: Home
       <div class="card-body">
         <h5 class="card-title"> Check your speed</h5>
         <p class="card-text">Check your internet connection speed, ping (not that effective though) and jitter from a server which the ISP has not cached.</p>
-        <a href="https://rajdis.heliohost.org/speedtest/" target="_blank" class="btn btn-primary">Speed Test</a>
+        <a href="https://php.anopeninternet.eu.org/speedtest/" target="_blank" class="btn btn-primary">Speed Test</a>
       </div>
     </div>
   </div>
@@ -41,7 +41,7 @@ title: Home
       <div class="card-body">
         <h5 class="card-title">About Us</h5>
         <p class="card-text">Will be updated soon!</p>
-        <a href="#" class="btn btn-primary">Coming Soon</a>
+        <a href="/distribure_about" class="btn btn-primary">Coming Soon</a>
       </div>
     </div>
   </div>
