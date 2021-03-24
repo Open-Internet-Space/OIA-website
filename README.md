@@ -13,4 +13,4 @@ Version 1.0 (public)
 Version 1.1
 
 - Migrated the Distribution Core(Distribure) website to GitHub
-- Added the website of Random Movie Quotes 
+- Bootstrap v5.0
