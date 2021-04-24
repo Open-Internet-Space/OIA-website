@@ -14,9 +14,9 @@
   <body>
     <div class="card text-center border-0">
   <!--nnavigation bar -->
-    <div class="card-header border-0">
-      <nav class="navbar nav-pills navbar-expand-md bg-light navbar-light">
-          <a class="navbar-brand" href="#">
+    <div class="card-header container border-0">
+      <nav class="navbar bg-light navbar-light justify-content-between">
+          <a class="navbar-brand d-none d-lg-block d-xl-block" href="#">
           <svg xmlns="http://www.w3.org/2000/svg" width="339" height="45" viewBox="0 0 339 45">
             <defs>
               <style>.a{fill:#707070;font-size:41px;font-family:TwCenMT-Regular, Tw Cen MT;}.b{font-size:23.915px;baseline-shift:13.66530021099821;}</style>
@@ -26,28 +26,36 @@
               </text>
             </svg>
           </a>
+          <a class="navbar-brand d-none d-sm-block d-lg-none" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="250" height="35" viewBox="0 0 339 45">
+            <defs>
+              <style>.a{fill:#707070;font-size:41px;font-family:TwCenMT-Regular, Tw Cen MT;}.b{font-size:23.915px;baseline-shift:13.66530021099821;}</style>
+            </defs>
+            <text class="a" transform="translate(0 35)">
+                <tspan x="0" y="0">An Open Internet </tspan>
+              </text>
+            </svg>
+          </a>
+          <a class="navbar-brand d-block d-sm-none" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="155" height="25" viewBox="0 0 339 45">
+            <defs>
+              <style>.a{fill:#707070;font-size:41px;font-family:TwCenMT-Regular, Tw Cen MT;}.b{font-size:23.915px;baseline-shift:13.66530021099821;}</style>
+            </defs>
+            <text class="a" transform="translate(0 35)">
+                <tspan x="0" y="0">An Open Internet </tspan>
+              </text>
+            </svg>
+          </a>
+          <div class="dropdown dropleft">
+            <button class="btn btn-outline-primary border-0 dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Menu
+            </button>
+            <div class="dropdown-menu border-0" aria-labelledby="dropdownMenu2">
+              <button class="dropdown-item" type="button">Action</button>
+              <button class="dropdown-item" type="button">Another action</button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </div>
+          </div>
      </nav>
 
     </div>
