@@ -41,7 +41,7 @@ title: Home
       <div class="card-body">
         <h5 class="card-title">About Us</h5>
         <p class="card-text">Will be updated soon!</p>
-        <a href="#" class="btn btn-primary">Coming Soon</a>
+        <a href="https://www.anopeninternet.eu.org/html/home.html" class="btn btn-primary">Coming Soon</a>
       </div>
     </div>
   </div>
