@@ -2,47 +2,45 @@
 layout: default
 title: Home
 ---
-<div class="row">
-  <!--Card Top Left-->
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Distribution Core</h5>
-        <p class="card-text">A website having many books, mainly related to technology, with some other tools that may be handy.</p>
-        <a href="https://rajdis.heliohost.org/" target="_blank" class="btn btn-primary"> Distribure </a>
-      </div>
+<!--Card Top Left-->
+<div class="col-sm-6">
+  <div class="card border-0">
+    <div class="card-body">
+      <h5 class="card-title">Distribution Core</h5>
+      <p class="card-text">A website having many books, mainly related to technology, with some other tools that may be handy.</p>
+      <button type="button" class="btn btn-outline-info border-0" onclick="window.open('distribure_index')"> Distribure  </button>
     </div>
   </div>
-  <!--Card Top Right-->
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title"> Check your speed</h5>
-        <p class="card-text">Check your internet connection speed, ping (not that effective though) and jitter from a server which the ISP has not cached.</p>
-        <a href="https://rajdis.heliohost.org/speedtest/" target="_blank" class="btn btn-primary">Speed Test</a>
-      </div>
+</div>
+<!--Card Top Right-->
+<div class="col-sm-6">
+  <div class="card border-0">
+    <div class="card-body">
+      <h5 class="card-title"> Check your speed</h5>
+      <p class="card-text">Check your internet connection speed, ping (not that effective though) and jitter from a server which the ISP has not cached.</p>
+      <button type="button" class="btn btn-outline-info border-0" onclick="window.open('https://php.anopeninternet.eu.org/speedtest/')">Speed Test</button>
     </div>
   </div>
-    <div class="w-100">
-    <br />
-    </div>
-  <!--Card Buttom Left-->
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title"> Web Links</h5>
-        <p class="card-text">This section will be updated soon! My that time click the below button to check Facebook page.</p>
-        <a href="https://www.facebook.com/bolgdata" target="_blank" class="btn btn-primary">WebLinks Facebook Page</a>
-      </div>
+</div>
+  <div class="w-100">
+  <br />
+  </div>
+<!--Card Buttom Left-->
+<div class="col-sm-6">
+  <div class="card border-0">
+    <div class="card-body">
+      <h5 class="card-title"> Web Links</h5>
+      <p class="card-text">This section will be updated soon! My that time click the below button to check Facebook page.</p>
+      <button type="button" class="btn btn-outline-info border-0" onclick="window.open('https://www.facebook.com/bolgdata')">Web Links</button>
     </div>
   </div>
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">About Us</h5>
-        <p class="card-text">Will be updated soon!</p>
-        <a href="https://www.anopeninternet.eu.org/html/home.html" class="btn btn-primary">Coming Soon</a>
-      </div>
+</div>
+<div class="col-sm-6">
+  <div class="card border-0">
+    <div class="card-body">
+      <h5 class="card-title">Blog</h5>
+      <p class="card-text">Still haven't started writing blog regularly. In (not near) future, this will be updated.  </p>
+      <button type="button" class="btn btn-outline-info border-0" onclick="window.open('https://blog.anopeninternet.eu.org/')">About Us</a>
     </div>
   </div>
 </div>
