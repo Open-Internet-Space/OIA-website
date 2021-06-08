@@ -46,16 +46,49 @@
               </text>
             </svg>
           </a>
-          <div class="dropdown dropleft">
-            <button class="btn btn-outline-primary border-0 dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Menu
-            </button>
-            <div class="dropdown-menu border-0" aria-labelledby="dropdownMenu2">
-              <button class="dropdown-item" type="button">Action</button>
-              <button class="dropdown-item" type="button">Another action</button>
 
-            </div>
-          </div>
+          <script type="text/javascript">
+
+          // Google Internal Site Search script- By JavaScriptKit.com (http://www.javascriptkit.com)
+          // For this and over 400+ free scripts, visit JavaScript Kit- http://www.javascriptkit.com/
+          // This notice must stay intact for use
+
+          //Enter domain of site to search.
+          var domainroot="anopeninternet.eu.org"
+
+          function Gsitesearch(curobj){
+          curobj.q.value="site:"+domainroot+" "+curobj.qfront.value
+          }
+
+          </script>
+
+          <!-- form class="form-inline" action="https://www.google.com/search" method="get" onsubmit="Gsitesearch(this)" >
+            <input name="q" type="hidden" />
+
+              <input class="form-control mr-sm-2" type="text" placeholder="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form-->
+
+            <form class="d-none d-sm-block" action="https://www.google.com/search" method="get" onSubmit="Gsitesearch(this)">
+
+
+            <input name="q" type="hidden" />
+            <input name="qfront" type="text"/>
+            <input type="submit" value="Search" /></p>
+
+            </form>
+    <!--
+    <div class="nav-item dropdown">
+      <a class=" nav-item dropdown nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Menu
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </div>
+  -->
      </nav>
 
     </div>
