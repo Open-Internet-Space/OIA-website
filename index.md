@@ -40,7 +40,7 @@ title: Home
     <div class="card-body">
       <h5 class="card-title">Blog</h5>
       <p class="card-text">Still haven't started writing blog regularly. In (not near) future, this will be updated.  </p>
-      <button type="button" class="btn btn-outline-info border-0" onclick="window.open('https://blog.anopeninternet.eu.org/')">About Us</a>
+      <button type="button" class="btn btn-outline-info border-0" onclick="window.open('https://blog.anopeninternet.eu.org/')">About Us</button>
     </div>
   </div>
 </div>
