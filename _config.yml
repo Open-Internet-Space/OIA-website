@@ -1,6 +1,6 @@
-url: "https://www.anopeninternet.eu.org/" 
-baseurl: "/" 
-title: "Test Site" 
+url: "https://www.anopeninternet.eu.org/"
+baseurl: "/"
+title: "Open Internet Space" 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
