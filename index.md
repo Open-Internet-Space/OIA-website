@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-      <div class="row">
+
         <!--Card Top Left-->
         <div class="col-sm-6">
           <div class="card border-0">
@@ -46,4 +46,3 @@ title: Home
             </div>
           </div>
         </div>
-      </div>
