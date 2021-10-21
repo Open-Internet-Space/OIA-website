@@ -4,7 +4,7 @@ title: Home
 ---
 
 
-        <!--Card Top Left-->
+
         <div class="col-sm-6">
           <div class="card border-0">
             <div class="card-body">
@@ -14,7 +14,7 @@ title: Home
             </div>
           </div>
         </div>
-        <!--Card Top Right-->
+
         <div class="col-sm-6">
           <div class="card border-0">
             <div class="card-body">
@@ -27,7 +27,7 @@ title: Home
           <div class="w-100">
           <br />
           </div>
-        <!--Card Buttom Left-->
+      
         <div class="col-sm-6">
           <div class="card border-0">
             <div class="card-body">
